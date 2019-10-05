@@ -23,6 +23,7 @@
             
 .row {
 margin: 30px;
+
 }            
 
 h2 {
@@ -36,7 +37,6 @@ img {
     width: 200px;
     padding-right: 20px;
 }
-
 
 p  {
     float: left;
@@ -54,11 +54,14 @@ hr {
 
 .card-body  {
     background-color: #4AAAA5;
+    text-align: center;
 }
 
 .card-text {
     color:  white;
+    font-weight: 600;
 }
+
 #message  {
     width: 80%;
     height: 120px;
