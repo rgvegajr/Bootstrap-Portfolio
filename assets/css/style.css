@@ -4,14 +4,15 @@
     color: #777777;
     background-image: url("concrete-texture.png");
 }
-           
+
 .container {
-    margin-top: 30px; 
+    margin-top: 30px;
     padding: 20px;
     width: 960px;
+    /* width: auto; */
     background-color: #ffffff;
 }
-            
+
 .navbar-brand {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
@@ -20,11 +21,10 @@
     margin: 0 400px 0 30px;
     padding: 15px 25px;
 }
-            
-.row {
-margin: 30px;
 
-}            
+.row {
+    margin: 30px;
+}
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -38,7 +38,7 @@ img {
     padding-right: 20px;
 }
 
-p  {
+p {
     float: left;
     line-height: 2;
 }
@@ -47,28 +47,32 @@ hr {
     border: 1px solid lightgray;
 }
 
-
-.card  {
-   margin: 20px;
+.card {
+    margin: 20px;
 }
 
-.card-body  {
+.card-body {
     background-color: #4AAAA5;
     text-align: center;
 }
 
 .card-text {
-    color:  white;
+    color: white;
     font-weight: 600;
 }
 
-#message  {
+#message {
     width: 80%;
     height: 120px;
 }
 
 #contact {
+    width: 90%;
     line-height: 2;
+}
+
+input {
+    width: 80%;
 }
 
 #button {
